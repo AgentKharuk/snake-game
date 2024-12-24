@@ -36,10 +36,15 @@ h1 {
 }
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
   text-align: center;
+}
+#snake-head {
+  width: 100px;
+  height: 100px;
+  background-color: #888;
 }
 
 .logo {
@@ -94,3 +99,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
