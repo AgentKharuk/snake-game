@@ -36,15 +36,19 @@ h1 {
 }
 
 #app {
+  position: relative;
   width: 100vw;
   height: 100vh;
   background-color: red;
   text-align: center;
 }
-#snake-head {
+#snakeHead {
   width: 100px;
   height: 100px;
   background-color: #888;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .logo {

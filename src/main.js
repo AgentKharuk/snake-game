@@ -5,8 +5,8 @@ import { setupCounter } from './counter.js'
 import { addArrowHandler } from './arrowHandler.js'
 
 document.querySelector('#app').innerHTML = `
-  <div id="snake-head">
+  <div id="snakeHead" style="position:absolute; left:0px; top:0px">
     
   </div>
 `
-
+addArrowHandler()
